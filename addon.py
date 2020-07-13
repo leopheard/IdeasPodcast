@@ -9,11 +9,11 @@ def main_menu():
         {
             'label': plugin.get_string(30001), 
             'path': plugin.url_for('episodes1'),
-            'thumbnail': ""},
+            'thumbnail': "https://www.cbc.ca/radio/podcasts/images/ideas-promo-2019.jpg"},
         {
             'label': plugin.get_string(30000),
             'path': plugin.url_for('episodes'),
-            'thumbnail': ""},
+            'thumbnail': "https://www.cbc.ca/radio/podcasts/images/ideas-promo-2019.jpg"},
     ]
     return items
 
